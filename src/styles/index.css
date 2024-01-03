@@ -1,21 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap');
 
-:root {
-    --blue: #007bff;
-    --bright-grey: #ccc;
-    --white: #fff;
+@media (prefers-color-scheme: light) {
+    :root {
+        --blue: #007bff;
+        --bright-grey: #ccc;
+        --white: #fff;
+        --letter: #333;
 
-    --font-family: 'Bitter', system-ui;
+        --font-family: 'Bitter', system-ui;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --blue: #007bff;
+        --bright-grey: #ccc;
+        --white: #333;
+        --letter: #fff;
+
+        --font-family: 'Bitter', system-ui;
+    }
 }
 
 body {
     font-family: var(--font-family);
     font-size: 16px;
     margin: 0;
+    background-color: var(--white);
+    color: var(--letter);
 }
 
-input, textarea, select, button {
+input,
+textarea,
+select,
+button {
     font-family: var(--font-family);
+    background-color: var(--white);
+    color: var(--letter);
 }
 
 .container {
@@ -31,7 +52,6 @@ input, textarea, select, button {
     padding: 12px 24px;
     font-size: 16px;
     background-color: var(--blue);
-    color: var(--white);
     border-radius: 10px;
     cursor: pointer;
     border: none;
