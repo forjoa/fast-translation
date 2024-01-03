@@ -19,6 +19,7 @@ const TranslationApp = () => {
 
   return (
     <div className='container'>
+      <h2>Text to translate</h2>
       <textarea
         value={textToTranslate}
         onChange={(e) => setTextToTranslate(e.target.value)}
@@ -44,9 +45,10 @@ const TranslationApp = () => {
       </button>
 
       {translatedText && (
-        <div className='result-container'>
-          <p>{translatedText}</p>
-        </div>
+        <>
+        <h2>Text translated</h2>
+        <textarea className='textarea' value={translatedText} />
+        </>
       )}
     </div>
   )
