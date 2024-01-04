@@ -83,3 +83,31 @@ p {
     line-height: 1.6;
     margin: 0;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border-bottom: 1px solid var(--letter);
+}
+
+.left-part {
+    display: flex;
+    gap: 20px;
+}
+
+.left-part img {
+    width: 80px;
+}
+
+.right-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.right-part a {
+    color: var(--letter);
+}
