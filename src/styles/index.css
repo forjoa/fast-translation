@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 @media (prefers-color-scheme: light) {
     :root {
@@ -7,7 +7,7 @@
         --white: #fff;
         --letter: #333;
 
-        --font-family: 'Bitter', system-ui;
+        --font-family: 'Raleway', system-ui;
     }
 }
 
@@ -18,7 +18,7 @@
         --white: #333;
         --letter: #fff;
 
-        --font-family: 'Bitter', system-ui;
+        --font-family: 'Raleway', system-ui;
     }
 }
 
