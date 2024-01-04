@@ -1,6 +1,7 @@
-import Language from "../types/languageType.ts"
+import Language from '../types/languageType.ts'
 
 const languages: Array<Language> = [
+  { code: ' ', name: 'Select a language' },
   { code: 'en', name: 'English' },
   { code: 'es', name: 'Spanish' },
   { code: 'fr', name: 'French' },
