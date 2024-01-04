@@ -7,6 +7,8 @@
         --white: #fff;
         --letter: #333;
 
+        --background: #aaa;
+
         --font-family: 'Raleway', system-ui;
     }
 }
@@ -17,6 +19,8 @@
         --bright-grey: #ccc;
         --white: #333;
         --letter: #fff;
+
+        --background: #444;
 
         --font-family: 'Raleway', system-ui;
     }
@@ -71,6 +75,7 @@ button {
     border-radius: 8px;
     resize: vertical;
     transition: border-color 0.3s ease;
+    background-color: var(--background);
 }
 
 .textarea:focus {
@@ -88,8 +93,9 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    border-radius: 15px;
+    border-radius: 0px 0px 15px 15px;
     border-bottom: 1px solid var(--letter);
+    background-color: var(--background);
 }
 
 .left-part {
