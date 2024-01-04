@@ -1,4 +1,4 @@
-type Language = {
+interface Language {
   code: string
   name: string
 }
