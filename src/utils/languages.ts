@@ -1,7 +1,6 @@
 import Language from "../types/languageType.ts"
 
 const languages: Array<Language> = [
-  { code: 'hi', name: 'Indian' },
   { code: 'en', name: 'English' },
   { code: 'es', name: 'Spanish' },
   { code: 'fr', name: 'French' },
