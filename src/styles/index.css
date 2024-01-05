@@ -100,10 +100,12 @@ header {
 
 .left-part {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .left-part img {
+    aspect-ratio: 1/1;
     width: 80px;
 }
 
@@ -116,4 +118,23 @@ header {
 
 .right-part a {
     color: var(--letter);
+}
+
+@media (max-width: 1000px) {
+    header {
+        padding: 10px 20px;
+    }
+    .left-part, .right-part {
+        gap: 10px;
+    }
+
+    .left-part img {
+        width: 40px;
+        height: 50px;
+        
+    }
+
+    .left-part h1 {
+        font-size: 24px;
+    }
 }
