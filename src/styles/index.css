@@ -5,7 +5,7 @@
         --blue: #4717F6;
         --bright-grey: #ccc;
         --white: #fff;
-        --letter: #333;
+        --letter: #0E0B16;
 
         --background: #ddd;
 
@@ -17,10 +17,10 @@
     :root {
         --blue: #4717F6;
         --bright-grey: #ccc;
-        --white: #333;
+        --white: #0E0B16;
         --letter: #fff;
 
-        --background: #444;
+        --background: #110e17f0;
 
         --font-family: 'Raleway', system-ui;
     }
