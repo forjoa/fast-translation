@@ -2,7 +2,7 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --blue: #007bff;
+        --blue: #4717F6;
         --bright-grey: #ccc;
         --white: #fff;
         --letter: #333;
@@ -15,7 +15,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --blue: #007bff;
+        --blue: #4717F6;
         --bright-grey: #ccc;
         --white: #333;
         --letter: #fff;
